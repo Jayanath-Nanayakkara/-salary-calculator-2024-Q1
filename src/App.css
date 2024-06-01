@@ -1,0 +1,22 @@
+.salary__calculator {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-self: space-between !important;
+}
+
+.SalaryCalculator,
+.Paysheet {
+  flex: 1 1 50%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .SalaryCalculator,
+  .Paysheet {
+    flex: 1 1 100% !important;
+  }
+}
+.Paysheet {
+  position: relative !important;
+  margin-top: 22px;
+}
